@@ -57,18 +57,13 @@ main {
 
 .banner {
     background-color: #000;
-    width: 100%;
     text-align: center;
     padding: 20px 0;
-}
-
-.banner img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
-
 
 #logo {
     max-width: 512px;
