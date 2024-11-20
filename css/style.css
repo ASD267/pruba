@@ -1,0 +1,134 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa de la ventana del navegador */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #000; /* Fondo negro */
+    color: white;
+    position: fixed; /* Fijo en la parte superior */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+    border-radius: 5px;
+}
+
+main {
+    flex-grow: 1; /* Permite que el contenido principal use el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; /* Espacio para la barra de navegación fija */
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+}
+
+.banner {
+    background-color: #000; /* Fondo negro */
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+    text-align: center;
+    padding: 20px 0; /* Añade un poco de relleno vertical */
+}
+
+#logo {
+    max-width: 512px; /* Establece un ancho máximo para la imagen */
+    height: auto;     /* Mantiene la proporción de la imagen */
+}
+
+footer {
+    background-color: #000; /* Fondo negro */
+    color: white;
+    padding: 20px 0; /* Espacio interior del pie de página */
+    text-align: center;
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content ul li {
+    margin: 0 15px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilos básicos para la página de contacto */
+.contact-info, .social-media, .map {
+    margin: 100px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
