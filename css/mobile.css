@@ -1,0 +1,76 @@
+/* Estilos para vista móvil */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 0 10px;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+
+    .banner img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .welcome-section {
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .welcome-text {
+        padding: 0;
+        text-align: center;
+    }
+
+    .welcome-image img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    .prices-section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    form {
+        padding: 10px;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .appointment-section, .about-section, .contact-section, .login-section, .signup-section, .forgot-password-section {
+        padding: 10px;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .footer-content ul {
+        flex-direction: column;
+    }
+
+    .footer-content ul li {
+        margin: 10px 0;
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+}
