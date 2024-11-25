@@ -153,7 +153,7 @@ footer {
 .contact-info, .social-media, .map {
     margin: 100px 0;
 }
-
+/* Estilos para la sección de precios */
 .prices-section {
     text-align: center;
     padding: 20px;
@@ -163,18 +163,10 @@ footer {
     margin: 20px 0;
 }
 
-.prices-section h2 {
-    margin-top: 0;
-}
-
-.prices-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.prices-section ul li {
-    margin: 10px 0;
-    font-size: 1.2em;
+.prices-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 form {
@@ -351,4 +343,70 @@ input, textarea {
     margin-top: 20px;
     width: 100%;
     text-align: center;
+}
+
+/* Estilos para la sección de inicio de sesión */
+.login-section, .signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2, .signup-section h2 {
+    margin-bottom: 20px;
+}
+
+.login-section form, .signup-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-section label, .signup-section label {
+    margin-top: 10px;
+}
+
+.login-section input, .signup-section input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login-section button, .signup-section button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-section button:hover, .signup-section button:hover {
+    background-color: #444;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-options a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
 }
